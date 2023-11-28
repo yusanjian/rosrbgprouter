@@ -2,11 +2,11 @@
 apt update
 apt install bird2 -y
 echo "开始解压"
-gunzip clash.meta-linux-amd64-compatible-v1.15.1.gz
+gunzip clash.meta-linux-amd64-compatible-v1.16.0.gz
 echo "解压完成"
 
 echo "开始重命名"
-mv clash.meta-linux-amd64-compatible-v1.15.1 clash
+mv clash.meta-linux-amd64-compatible-v1.16.0 clash
 echo "重命名完成"
 
 echo "开始添加执行权限"
