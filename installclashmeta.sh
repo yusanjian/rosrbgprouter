@@ -1,11 +1,6 @@
 #!/bin/bash
 apt update
 apt install bird2 -y
-
-echo "开始下载 clash meta"
-wget https://github.com/MetaCubeX/Clash.Meta/releases/download/v1.15.1/clash.meta-linux-amd64-compatible-v1.15.1.gz
-echo "clash premium 下载完成"
-
 echo "开始解压"
 gunzip clash.meta-linux-amd64-compatible-v1.15.1.gz
 echo "解压完成"
